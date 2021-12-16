@@ -29,7 +29,7 @@ public class HotelServerImpl implements IHotelServer {
     @Override
     public int revenue() throws RemoteException {
         int total = 0;
-        for (String key : rooms.keySet()) {
+        for (String key : rooms.keySet()) { 
             if (key == "type0") {
                 total += 55000 * this.rooms.get(key).size();
             }

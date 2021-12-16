@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class HotelClientImpl {
 
     private IHotelServer server;
-
+ 
     public HotelClientImpl() throws RemoteException {
     }
 

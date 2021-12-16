@@ -9,6 +9,6 @@ public class HotelServer {
         IHotelServer server = new HotelServerImpl();
         Registry registry = LocateRegistry.createRegistry(1099);
         registry.bind("Server", server);
-        System.out.println("Server started");
+        System.out.println("Server started"); 
     }
 }

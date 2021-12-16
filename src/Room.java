@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Room {
     private ArrayList<String> guests;
-    private int total;
+    private int total; 
 
     public Room(int total) {
         setTotal(total);
